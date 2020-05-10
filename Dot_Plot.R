@@ -1,6 +1,6 @@
 #Dot Plot
 
-# Adapted from scripts written RAWIII (https://github.com/raw937)
+#Adapted from scripts written by RAWIII (https://github.com/raw937)
 
 library("ggplot2")
 library("RColorBrewer")
