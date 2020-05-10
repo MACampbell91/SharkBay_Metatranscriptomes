@@ -1,0 +1,48 @@
+#Pipeline and scripts developed and written by RAWIII, MAC and HLW. 
+
+#Quality control (1)
+
+bbduk.sh -Xmx10g in1={sample}_R1.fastq.gz in2={sample}_R2.fastq.gz out1={sample}_trim_R1.fastq out2={sample}_trim_R2.fastq ref=adapters.fa ktrim=r k=21 mink=11 hdist=2 tpe tbo
+bbduk.sh -Xmx10g in1={sample}_trim_R1.fastq in2={sample}_trim_R2.fastq out1={sample}_decon_R1.fastq out2={sample}_decon_R2.fastq qtrim=r trimq=25 maq=25 minlen=50  k=31 hdist=1
+bowtie2.sh -p 16 -x rRNA_Phix -q {sample}_decon_R1.fastq -S {sample}_R1.sam --very-sensitive-local
+bowtie2.sh -p 16 -x rRNA_Phix -q {sample}_decon_R2.fastq -S {sample}_R2.sam --very-sensitive-local
+
+#Separation of mRNA (unmapped) and rRNA (mapped) reads
+
+samtools.sh view -bS {sample}_R1.sam > {sample}_R1.bam
+samtools.sh view -bS {sample}_R2.sam > {sample}_R2.bam
+samtools.sh view -b -f 4 {sample}_R1.bam > {sample}_R1_unmapped.bam
+samtools.sh view -b -f 4 {sample}_R2.bam > {sample}_R2_unmapped.bam
+samtools.sh view -b -F 4 {sample}_R1.bam > {sample}_R1_mapped.bam
+samtools.sh view -b -F 4 {sample}_R2.bam > {sample}_R2_mapped.bam
+fastq-pair.sh {sample}_R1_mapped.fastq {sample}_R2_mapped.fastq
+samtools.sh fastq {sample}_R1_unmapped.bam > {sample}_R1_unmapped.fastq
+samtools.sh fastq {sample}_R2_unmapped.bam > {sample}_R2_unmapped.fastq
+samtools.sh fastq {sample}_R1_mapped.bam > {sample}_R1_mapped.fastq
+samtools.sh fastq {sample}_R2_mapped.bam > {sample}_R2_mapped.fastq
+
+#Quality control (2) to ensure all rRNAs are removed. 
+
+bowtie2.sh -p 16 -x rRNA_Phix -q {sample}_R1_unmapped.fastq -S {sample}_R1_2.sam --very-sensitive-local
+bowtie2.sh -p 16 -x rRNA_Phix -q {sample}_R2_unmapped.fastq -S {sample}_R2_2.sam --very-sensitive-local
+samtools.sh view -bS {sample}_R1_2.sam > {sample}_R1_2.bam
+samtools.sh view -bS {sample}_R2_2.sam > {sample}_R2_2.bam
+samtools.sh view -b -f 4 {sample}_R1_2.bam > {sample}_R1_unmapped_2.bam
+samtools.sh view -b -f 4 {sample}_R2_2.bam > {sample}_R2_unmapped_2.bam
+samtools.sh fastq {sample}_R1_unmapped_2.bam > {sample}_R1_unmapped_2.fastq
+samtools.sh fastq {sample}_R2_unmapped_2.bam > {sample}_R2_unmapped_2.fastq
+fastq-pair.sh {sample}_R1_unmapped_2.fastq {sample}_R2_unmapped_2.fastq
+
+#Assembly and gene prediction
+
+spades.sh --rna -1 {sample}_R1_unmapped_2.fastq.paired.fq -2 {sample}_R2_unmapped_2.fastq.paired.fq -o {sample}
+prodigal.sh -i {sample}_transcripts.fasta -o {sample}_genes -a {sample}.proteins.faa -p meta
+
+#Taxonomic annotation
+
+phyloFlash.sh -dbhome /phyloFlash/132/ -lib {sample}_pf -read1 {sample}_R1_mapped.fastq.paired.fq -read2 {sample}_R2_mapped.fastq.paired.fq -everything -readlength 125 -taxlevel 7 -readlimit 5000000
+diamond.sh blastp --db refseq_diamond.dmnd --query {sample}.proteins.faa -o {sample}_refseq --more-sensitive -f 6 -k 5 -b 1
+
+#Gene annotation
+
+eggnog-mapper.sh -i {sample}.proteins.faa --output {sample}_eggnog -m diamond --cpu 16 --usemem --data_dir eggnog-databases
