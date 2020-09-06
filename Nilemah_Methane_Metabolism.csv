@@ -1,0 +1,49 @@
+,Pustular Mat  1,Pustular Mat  2,Pustular Mat  3,Pustular Mat  4,Pustular Mat  5,Smooth Mat 1,Smooth Mat 2,Smooth Mat 3,Smooth Mat 4,Smooth Mat 5
+K00018: hprA; glycerate dehydrogenase [EC:1.1.1.29],0,0,0,2,0,2,0,2,2,0
+K00024: mdh; malate dehydrogenase [EC:1.1.1.37],6,1,3,13,15,8,14,11,7,7
+K00125: fdhB; formate dehydrogenase (coenzyme F420) beta subunit [EC:1.17.98.3ÿ1.8.98.6],0,0,0,0,0,0,0,3,0,0
+"K00192: cdhA; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha [EC:1.2.7.4]",0,0,0,1,0,6,18,30,1,3
+"K00193: cdhC; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169]",0,0,0,1,0,1,10,10,1,1
+"K00194: cdhD, acsD; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]",0,0,0,1,2,4,4,4,2,3
+"K00195: cdhB; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon",0,0,0,0,0,0,2,1,0,0
+"K00197: cdhE, acsC; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]",0,0,0,0,3,3,4,7,4,5
+"K00200: fwdA, fmdA; formylmethanofuran dehydrogenase subunit A [EC:1.2.7.12]",0,0,0,1,0,3,4,15,0,0
+"K00201: fwdB, fmdB; formylmethanofuran dehydrogenase subunit B [EC:1.2.7.12]",0,0,0,1,1,2,4,14,0,2
+"K00202: fwdC, fmdC; formylmethanofuran dehydrogenase subunit C [EC:1.2.7.12]",0,0,0,0,0,0,2,2,0,0
+"K00203: fwdD, fmdD; formylmethanofuran dehydrogenase subunit D [EC:1.2.7.12]",0,0,0,0,0,2,0,4,0,0
+"K00205: fwdF, fmdF; 4Fe-4S ferredoxin",0,0,0,0,0,3,2,7,0,0
+K00319: mtd; methylenetetrahydromethanopterin dehydrogenase [EC:1.5.98.1],0,0,0,0,0,0,0,3,0,0
+"K00320: mer; 5,10-methylenetetrahydromethanopterin reductase [EC:1.5.98.2]",0,0,0,1,0,0,0,2,0,0
+"K00600: glyA, SHMT; glycine hydroxymethyltransferase [EC:2.1.2.1]",10,1,2,7,5,2,12,10,4,10
+"K00625: E2.3.1.8, pta; phosphate acetyltransferase [EC:2.3.1.8]",0,0,1,4,0,2,2,3,3,2
+K00830: AGXT; alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44ÿ2.6.1.45ÿ2.6.1.51],2,1,0,2,1,0,0,2,6,1
+"K00850: pfkA, PFK; 6-phosphofructokinase 1 [EC:2.7.1.11]",10,1,6,6,9,17,14,25,11,10
+"K00863: DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing) [EC:2.7.1.28ÿ2.7.1.29ÿ4.6.1.15]",0,0,2,5,4,1,2,2,3,4
+K00925: ackA; acetate kinase [EC:2.7.2.1],0,0,0,1,1,6,0,3,6,0
+K01499: mch; methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27],0,0,2,0,0,0,4,3,0,0
+K01595: ppc; phosphoenolpyruvate carboxylase [EC:4.1.1.31],12,0,1,4,4,9,8,4,3,4
+"K01624: FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13]",24,9,6,10,12,23,18,16,22,14
+"K01689: ENO, eno; enolase [EC:4.2.1.11]",10,1,3,10,6,24,12,20,9,13
+"K01895: ACSS1_2, acs; acetyl-CoA synthetase [EC:6.2.1.1]",8,3,11,22,27,33,50,35,35,48
+K03388: hdrA2; heterodisulfide reductase subunit A2 [EC:1.8.7.3ÿ1.8.98.4ÿ1.8.98.5ÿ1.8.98.6],0,1,0,9,12,36,70,123,19,19
+K03389: hdrB2; heterodisulfide reductase subunit B2 [EC:1.8.7.3ÿ1.8.98.4ÿ1.8.98.5ÿ1.8.98.6],0,0,0,4,4,11,12,30,2,5
+K03390: hdrC2; heterodisulfide reductase subunit C2 [EC:1.8.7.3ÿ1.8.98.4ÿ1.8.98.5ÿ1.8.98.6],0,2,0,0,0,6,12,22,3,1
+"K03841: FBP, fbp; fructose-1,6-bisphosphatase I [EC:3.1.3.11]",6,0,1,2,6,10,2,1,6,4
+K04480: mtaB; methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90],0,0,0,1,0,0,0,1,2,2
+K08093: hxlA; 3-hexulose-6-phosphate synthase [EC:4.1.2.43],0,0,4,0,0,1,2,12,0,0
+K08264: hdrD; heterodisulfide reductase subunit D [EC:1.8.98.1],0,0,0,0,0,1,0,8,0,0
+K08692: mtkB; malate-CoA ligase subunit alpha [EC:6.2.1.9],2,1,0,0,5,2,10,2,4,2
+K10944: pmoA-amoA; methane/ammonia monooxygenase subunit A [EC:1.14.18.3ÿ1.14.99.39],8,3,0,0,2,0,0,0,0,0
+K10945: pmoB-amoB; methane/ammonia monooxygenase subunit B,4,1,0,0,0,0,0,0,0,0
+K13788: pta; phosphate acetyltransferase [EC:2.3.1.8],0,0,1,1,0,2,0,3,3,2
+K13812: fae-hps; bifunctional enzyme Fae/Hps [EC:4.2.1.147ÿ4.1.2.43],0,0,0,0,0,1,2,6,0,0
+K13831: hps-phi; 3-hexulose-6-phosphate synthase / 6-phospho-3-hexuloisomerase [EC:4.1.2.43ÿ5.3.1.27],0,0,0,0,0,0,0,6,0,0
+K14067: mtkA; malate-CoA ligase subunit beta [EC:6.2.1.9],6,0,4,0,0,2,8,1,2,1
+K14080: mtaA; [methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246],0,0,0,0,1,2,0,0,1,3
+K14081: mtaC; methanol corrinoid protein,0,0,0,0,1,0,0,1,1,1
+K14083: mttB; trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250],0,0,0,4,5,10,20,11,8,9
+K14084: mttC; trimethylamine corrinoid protein,2,0,0,0,1,1,2,3,0,0
+"K14126: mvhA, vhuA, vhcA; F420-non-reducing hydrogenase large subunit [EC:1.12.99.-ÿ1.8.98.5]",0,0,0,3,5,7,26,20,1,12
+"K14127: mvhD, vhuD, vhcD; F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.12.99.-ÿ1.8.98.5ÿ1.8.98.6]",0,0,0,0,1,5,10,21,0,4
+"K14128: mvhG, vhuG, vhcG; F420-non-reducing hydrogenase small subunit [EC:1.12.99.-ÿ1.8.98.5]",0,0,0,3,2,4,8,20,3,5
+K16179: mtbC; dimethylamine corrinoid protein,0,0,0,0,1,0,0,4,0,1

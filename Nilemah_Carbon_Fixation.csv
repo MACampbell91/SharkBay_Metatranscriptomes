@@ -1,0 +1,80 @@
+,Pustular Mat  1,Pustular Mat  2,Pustular Mat  3,Pustular Mat  4,Pustular Mat  5,Smooth Mat 1,Smooth Mat 2,Smooth Mat 3,Smooth Mat 4,Smooth Mat 5
+K00024: mdh; malate dehydrogenase [EC:1.1.1.37],6,1,3,13,15,8,14,11,7,7
+K00028: E1.1.1.39; malate dehydrogenase (decarboxylating) [EC:1.1.1.39],2,1,0,0,1,0,0,0,1,0
+"K00029: E1.1.1.40, maeB; malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]",10,1,7,3,5,9,8,5,4,3
+"K00031: IDH1, IDH2, icd; isocitrate dehydrogenase [EC:1.1.1.42]",14,3,5,10,11,19,14,2,2,5
+"K00134: GAPDH, gapA; glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12]",52,7,3,37,34,38,58,42,34,21
+K00150: gap2; glyceraldehyde-3-phosphate dehydrogenase (NAD(P)) [EC:1.2.1.59],10,2,0,7,4,6,10,4,7,2
+K00169: porA; pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1],4,1,1,9,18,15,28,47,15,16
+K00170: porB; pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1],4,1,0,2,4,3,6,16,2,3
+K00171: porD; pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1],0,0,0,0,0,3,4,7,0,0
+K00172: porG; pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1],0,0,0,2,2,0,6,6,2,2
+"K00174: korA, oorA, oforA; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3ÿ1.2.7.11]",12,5,1,17,8,28,20,33,12,11
+"K00175: korB, oorB, oforB; 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3ÿ1.2.7.11]",10,0,1,4,10,12,10,22,6,8
+"K00176: korD, oorD; 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3]",0,0,0,1,0,1,2,3,2,0
+"K00177: korC, oorC; 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3]",0,0,0,3,4,2,8,7,5,3
+"K00194: cdhD, acsD; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]",0,0,0,1,2,4,4,4,2,3
+"K00197: cdhE, acsC; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]",0,0,0,0,3,3,4,7,4,5
+"K00198: cooS, acsA; anaerobic carbon-monoxide dehydrogenase catalytic subunit [EC:1.2.7.4]",0,0,1,1,4,2,14,3,14,14
+"K00239: sdhA, frdA; succinate dehydrogenase / fumarate reductase, flavoprotein subunit [EC:1.3.5.1ÿ1.3.5.4]",16,2,5,11,13,12,26,16,20,11
+"K00240: sdhB, frdB; succinate dehydrogenase / fumarate reductase, iron-sulfur subunit [EC:1.3.5.1ÿ1.3.5.4]",2,0,6,9,10,2,4,2,7,6
+"K00241: sdhC, frdC; succinate dehydrogenase / fumarate reductase, cytochrome b subunit",4,0,0,8,5,13,8,23,6,6
+"K00242: sdhD, frdD; succinate dehydrogenase / fumarate reductase, membrane anchor subunit",12,1,1,4,5,3,4,1,2,1
+K00244: frdA; fumarate reductase flavoprotein subunit [EC:1.3.5.4],2,0,1,4,8,9,16,13,14,10
+K00245: frdB; fumarate reductase iron-sulfur subunit [EC:1.3.5.4],2,0,0,3,3,0,2,2,0,3
+"K00297: metF, MTHFR; methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20]",4,0,2,2,5,1,2,11,1,2
+"K00615: E2.2.1.1, tktA, tktB; transketolase [EC:2.2.1.1]",44,8,3,29,14,37,18,24,25,19
+"K00625: E2.3.1.8, pta; phosphate acetyltransferase [EC:2.3.1.8]",0,0,1,4,0,2,2,3,3,2
+"K00626: E2.3.1.9, atoB; acetyl-CoA C-acetyltransferase [EC:2.3.1.9]",22,0,8,14,13,18,46,58,12,24
+"K00855: PRK, prkB; phosphoribulokinase [EC:2.7.1.19]",12,4,0,6,7,4,2,12,5,7
+K00925: ackA; acetate kinase [EC:2.7.2.1],0,0,0,1,1,6,0,3,6,0
+"K00927: PGK, pgk; phosphoglycerate kinase [EC:2.7.2.3]",14,2,0,5,12,20,10,16,12,6
+"K01006: ppdK; pyruvate, orthophosphate dikinase [EC:2.7.9.1]",6,1,1,36,29,63,54,67,39,44
+"K01007: pps, ppsA; pyruvate, water dikinase [EC:2.7.9.2]",12,3,5,30,29,35,36,56,35,27
+K01491: folD; methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5ÿ3.5.4.9],6,0,3,6,2,5,4,7,5,4
+K01595: ppc; phosphoenolpyruvate carboxylase [EC:4.1.1.31],12,0,1,4,4,9,8,4,3,4
+K01601: rbcL; ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39],34,7,1,29,32,18,8,19,23,15
+K01602: rbcS; ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39],4,1,1,7,4,10,4,6,3,3
+"K01610: E4.1.1.49, pckA; phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]",14,1,2,16,20,18,12,10,13,12
+"K01623: ALDO; fructose-bisphosphate aldolase, class I [EC:4.1.2.13]",6,1,0,2,7,3,0,3,3,1
+"K01624: FBA, fbaA; fructose-bisphosphate aldolase, class II [EC:4.1.2.13]",24,9,6,10,12,23,18,16,22,14
+"K01676: E4.2.1.2A, fumA, fumB; fumarate hydratase, class I [EC:4.2.1.2]",0,0,1,1,1,1,6,1,2,1
+"K01678: E4.2.1.2AB, fumB; fumarate hydratase subunit beta [EC:4.2.1.2]",0,0,0,1,1,0,4,1,0,1
+"K01679: E4.2.1.2B, fumC, FH; fumarate hydratase, class II [EC:4.2.1.2]",10,1,2,6,4,6,10,5,2,2
+"K01681: ACO, acnA; aconitate hydratase [EC:4.2.1.3]",20,2,18,10,14,16,12,2,8,6
+K01682: acnB; aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3ÿ4.2.1.99],2,0,2,1,3,2,0,0,3,0
+K01807: rpiA; ribose 5-phosphate isomerase A [EC:5.3.1.6],4,0,3,0,0,2,0,0,0,2
+K01808: rpiB; ribose 5-phosphate isomerase B [EC:5.3.1.6],0,0,0,2,1,0,0,2,1,1
+K01847: MUT; methylmalonyl-CoA mutase [EC:5.4.99.2],2,0,4,5,1,7,16,18,5,10
+"K01848: E5.4.99.2A, mcmA1; methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2]",4,0,3,5,1,4,10,25,2,5
+"K01849: E5.4.99.2B, mcmA2; methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2]",0,0,0,0,0,1,4,2,0,0
+K01902: sucD; succinyl-CoA synthetase alpha subunit [EC:6.2.1.5],4,1,2,3,7,2,14,2,4,5
+K01903: sucC; succinyl-CoA synthetase beta subunit [EC:6.2.1.5],12,0,6,3,4,3,10,3,7,4
+K01938: fhs; formate--tetrahydrofolate ligase [EC:6.3.4.3],4,0,1,7,2,8,6,4,14,9
+"K01958: PC, pyc; pyruvate carboxylase [EC:6.4.1.1]",6,0,0,3,4,2,4,1,4,3
+K01959: pycA; pyruvate carboxylase subunit A [EC:6.4.1.1],0,0,1,0,2,1,0,2,0,0
+K01960: pycB; pyruvate carboxylase subunit B [EC:6.4.1.1],4,0,0,0,1,3,6,11,3,10
+"K01961: accC; acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2ÿ6.3.4.14]",4,1,1,4,7,1,0,3,3,3
+K01962: accA; acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2ÿ2.1.3.15],4,0,7,2,5,3,4,9,2,5
+K01963: accD; acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2ÿ2.1.3.15],4,0,7,3,7,4,4,9,2,5
+"K02446: glpX; fructose-1,6-bisphosphatase II [EC:3.1.3.11]",14,2,0,4,2,6,8,6,4,0
+"K03737: por, nifJ; pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1ÿ1.2.7.-]",46,6,3,55,59,56,62,85,47,43
+"K03841: FBP, fbp; fructose-1,6-bisphosphatase I [EC:3.1.3.11]",6,0,1,2,6,10,2,1,6,4
+K05299: fdhA; formate dehydrogenase (NADP+) alpha subunit [EC:1.17.1.10],2,0,2,5,3,3,12,3,2,6
+"K05606: MCEE, epi; methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1]",0,1,1,0,1,1,4,2,0,1
+"K11532: glpX-SEBP; fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11ÿ3.1.3.37]",14,2,0,4,2,6,6,6,4,0
+K13788: pta; phosphate acetyltransferase [EC:2.3.1.8],0,0,1,1,0,2,0,3,3,2
+K14138: acsB; acetyl-CoA synthase [EC:2.3.1.169],0,0,0,1,2,4,10,2,10,13
+"K14454: GOT1; aspartate aminotransferase, cytoplasmic [EC:2.6.1.1]",4,0,0,0,0,0,0,0,1,0
+K14468: mcr; malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+) [EC:1.2.1.75ÿ1.1.1.298],0,0,0,1,0,1,2,3,0,4
+K14469: K14469; acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase [EC:1.3.1.84ÿ4.2.1.116ÿ6.2.1.36],0,0,0,1,2,2,8,4,2,0
+K14471: smtA1; succinyl-CoA:(S)-malate CoA-transferase subunit A [EC:2.8.3.22],0,1,0,0,0,0,4,2,0,2
+K14472: smtB; succinyl-CoA:(S)-malate CoA-transferase subunit B [EC:2.8.3.22],0,1,0,0,0,0,4,2,0,2
+K14534: abfD; 4-hydroxybutyryl-CoA dehydratase / vinylacetyl-CoA-Delta-isomerase [EC:4.2.1.120ÿ5.3.3.3],2,0,0,0,0,0,2,3,0,0
+K15016: K15016; enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17ÿ1.1.1.35],0,0,0,0,0,0,0,4,0,0
+K15017: K15017; malonyl-CoA/succinyl-CoA reductase (NADPH) [EC:1.2.1.75ÿ1.2.1.76],10,0,0,0,0,0,2,0,1,0
+K15022: fdhB; formate dehydrogenase (NADP+) beta subunit [EC:1.17.1.10],0,1,0,0,1,4,4,3,7,2
+K15023: acsE; 5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258],2,0,0,0,0,0,2,2,1,2
+K15052: K15052; propionyl-CoA carboxylase [EC:6.4.1.3ÿ2.1.3.15],4,0,3,0,1,1,2,1,1,0
+K15230: aclA; ATP-citrate lyase alpha-subunit [EC:2.3.3.8],0,0,0,0,1,0,4,0,0,1
+K15231: aclB; ATP-citrate lyase beta-subunit [EC:2.3.3.8],0,0,0,0,1,0,2,0,0,1

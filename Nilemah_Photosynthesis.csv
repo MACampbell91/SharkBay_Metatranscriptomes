@@ -1,0 +1,50 @@
+,Pustular Mat  1,Pustular Mat  2,Pustular Mat  3,Pustular Mat  4,Pustular Mat  5,Smooth Mat 1,Smooth Mat 2,Smooth Mat 3,Smooth Mat 4,Smooth Mat 5
+K02689: psaA; photosystem I P700 chlorophyll a apoprotein A1,86,23,5,63,43,48,58,21,31,15
+K02703: psbA; photosystem II P680 reaction center D1 protein [EC:1.10.3.9],68,23,1,67,37,55,40,32,43,27
+K02690: psaB; photosystem I P700 chlorophyll a apoprotein A2,66,20,2,56,38,45,66,38,27,12
+"K02111: ATPF1A, atpA; F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]",36,8,5,27,28,31,22,27,35,13
+K02706: psbD; photosystem II P680 reaction center D2 protein [EC:1.10.3.9],28,9,0,22,17,30,18,12,19,10
+K02705: psbC; photosystem II CP43 chlorophyll apoprotein,18,4,1,22,17,14,16,14,22,8
+"K02112: ATPF1B, atpD; F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]",20,5,1,25,12,13,6,22,15,14
+K02635: petB; cytochrome b6,30,1,2,26,16,12,10,8,12,6
+"K02108: ATPF0A, atpB; F-type H+-transporting ATPase subunit a",16,4,3,11,11,10,14,10,11,7
+"K02109: ATPF0B, atpF; F-type H+-transporting ATPase subunit b",10,5,3,10,11,5,6,16,13,13
+K02704: psbB; photosystem II CP47 chlorophyll apoprotein,14,6,0,11,10,11,14,6,8,5
+"K02115: ATPF1G, atpG; F-type H+-transporting ATPase subunit gamma",10,2,1,10,4,9,8,6,4,8
+"K02110: ATPF0C, atpE; F-type H+-transporting ATPase subunit c",10,2,0,11,5,4,4,3,8,4
+"K02113: ATPF1D, atpH; F-type H+-transporting ATPase subunit delta",14,1,2,7,3,7,2,3,7,4
+K02707: psbE; photosystem II cytochrome b559 subunit alpha,6,5,1,9,5,7,8,3,3,3
+K02694: psaF; photosystem I subunit III,8,3,0,7,5,6,6,2,7,0
+K02641: petH; ferredoxin--NADP+ reductase [EC:1.18.1.2],8,5,0,1,10,5,0,6,2,3
+K02637: petD; cytochrome b6-f complex subunit 4,10,2,0,5,5,5,6,3,2,1
+K02718: psbT; photosystem II PsbT protein,6,0,0,8,6,6,2,2,6,2
+K02699: psaL; photosystem I subunit XI,8,2,0,8,2,2,6,2,3,3
+K02639: petF; ferredoxin,12,2,0,2,7,4,0,2,1,4
+"K02114: ATPF1E, atpC; F-type H+-transporting ATPase subunit epsilon",6,0,2,8,3,2,0,4,4,4
+K02716: psbO; photosystem II oxygen-evolving enhancer protein 1,2,3,0,4,5,4,2,1,5,1
+K02693: psaE; photosystem I subunit IV,6,3,0,8,2,2,0,3,2,0
+K02638: petE; plastocyanin,2,0,0,3,1,4,4,1,6,3
+K02692: psaD; photosystem I subunit II,2,3,0,7,3,6,0,0,1,2
+K02636: petC; cytochrome b6-f complex iron-sulfur subunit [EC:7.1.1.6],2,2,0,5,4,2,4,1,3,0
+K02720: psbV; photosystem II cytochrome c550,6,1,0,5,3,1,2,1,2,0
+K02708: psbF; photosystem II cytochrome b559 subunit beta,2,2,0,2,0,6,4,1,2,0
+K02634: petA; apocytochrome f,6,0,0,2,2,4,0,0,3,0
+K02691: psaC; photosystem I subunit VII,2,0,0,3,3,2,2,0,1,1
+K02719: psbU; photosystem II PsbU protein,4,0,1,5,0,0,0,2,2,0
+K02698: psaK; photosystem I subunit X,2,0,0,0,2,0,2,0,1,0
+K08902: psb27; photosystem II Psb27 protein,4,0,0,0,1,0,0,1,0,0
+K02697: psaJ; photosystem I subunit IX,4,0,0,0,0,0,0,0,0,0
+K02710: psbI; photosystem II PsbI protein,2,0,1,0,0,1,0,0,0,0
+K02713: psbL; photosystem II PsbL protein,0,0,0,0,2,0,0,1,1,0
+K08903: psb28; photosystem II 13kDa protein,2,0,0,1,0,0,0,0,1,0
+K02709: psbH; photosystem II PsbH protein,0,0,0,1,0,0,0,0,2,0
+K02717: psbP; photosystem II oxygen-evolving enhancer protein 2,0,0,0,1,0,0,0,0,0,2
+K08906: petJ; cytochrome c6,0,0,0,1,0,0,0,0,2,0
+K02696: psaI; photosystem I subunit VIII,0,0,0,0,0,1,0,0,0,0
+K02711: psbJ; photosystem II PsbJ protein,0,0,0,0,0,0,0,1,0,0
+K02723: psbY; photosystem II PsbY protein,0,0,0,0,0,0,0,0,0,1
+K02724: psbZ; photosystem II PsbZ protein,0,0,0,0,1,0,0,0,0,0
+K08904: psb28-2; photosystem II Psb28-2 protein,0,0,1,0,0,0,0,0,0,0
+K08927: pufB; light-harvesting complex 1 beta chain,18,5,2,21,28,8,18,17,18,21
+K08928: pufL; photosynthetic reaction center L subunit,58,20,2,79,53,42,30,32,50,55
+K08929: pufM; photosynthetic reaction center M subunit,82,28,2,86,55,69,46,39,51,51
