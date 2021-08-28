@@ -15,11 +15,11 @@ samtools.sh view -b -f 4 {sample}_R1.bam > {sample}_R1_unmapped.bam
 samtools.sh view -b -f 4 {sample}_R2.bam > {sample}_R2_unmapped.bam
 samtools.sh view -b -F 4 {sample}_R1.bam > {sample}_R1_mapped.bam
 samtools.sh view -b -F 4 {sample}_R2.bam > {sample}_R2_mapped.bam
-fastq-pair.sh {sample}_R1_mapped.fastq {sample}_R2_mapped.fastq
 samtools.sh fastq {sample}_R1_unmapped.bam > {sample}_R1_unmapped.fastq
 samtools.sh fastq {sample}_R2_unmapped.bam > {sample}_R2_unmapped.fastq
 samtools.sh fastq {sample}_R1_mapped.bam > {sample}_R1_mapped.fastq
 samtools.sh fastq {sample}_R2_mapped.bam > {sample}_R2_mapped.fastq
+fastq-pair.sh {sample}_R1_mapped.fastq {sample}_R2_mapped.fastq
 
 #Quality control (2) to ensure all rRNAs are removed. 
 
